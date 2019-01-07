@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Validation</title>
+</head>
+<body>
+
+  <div>
+    <h1 style="text-align:center;color:blue;border:2px dashed">Creating Form and Elements</h1>
+  </div>
+
+  <div>
+      <h3 style="text-align:center;color:orangered">list Items</h3>
+        <ul class="collection">
+            <li>first item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+    </div>
+
+<br>
+<br>
+<br>
+
+  <form name="register" onsubmit="return validate()" method="post" id="val-form" >
+    <br>
+    <label id="user">Username:</label>
+    <div><br>
+      <input type="text" name="uname" size="20" value="">
+    </div>
+    <div><br>
+    <label id="password1">Password:</label>
+    <div>
+      <input type="password" name="pass1" size="20">
+    </div><br>
+    <label id="password2" >Confirm Password:</label>
+    <div>
+      <input type="password" name="pass2" size="20">
+    </div>
+    <div><br>
+      <input type="submit" value="Submit">
+    </div>
+    <br>
+    <br>
+  </form>
+  <br>
+  
+ 
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
